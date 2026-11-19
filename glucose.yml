@@ -1,0 +1,19 @@
+name: glucose
+channels:
+  - conda-forge
+dependencies:
+  # R 4.4 with graphics; Jupyter with an R kernel (plots) and a Python kernel
+  - r-base=4.4
+  - jupyterlab
+  - r-irkernel
+  - python=3.12
+  - ipykernel
+  - pandas
+  - scipy
+  # tables and plots
+  - r-tidyverse
+  - r-data.table
+  - r-jsonlite
+  - r-viridis
+  - r-patchwork
+  - r-ragg
